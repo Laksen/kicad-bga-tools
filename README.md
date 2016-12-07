@@ -20,3 +20,9 @@ Where `x` is a skipped pad. `e` gets an edge via(shifted column/row style), and 
 In the above example the numbers would be: skip_outer=1, edge_layers=2
 
 If edge_layers=0 then only quadrant dogbone vias will be created.
+
+## Example
+
+Example with edge_layers=6, and skip_outer=0. Blue indicates shifted column/row vias, green is the transition layer, and orange is the rest which are fanned out with normal dogbone vias.
+
+![Image of BGA example](bga-example.png)
